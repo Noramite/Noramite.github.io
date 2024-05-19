@@ -8,13 +8,15 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #ffffff;
+    background-color: #000000;
   }
   
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 1920px;
+    margin: auto;
+    padding: 20px;
     background-color: rgb(44, 44, 44);
+    border-radius: 3px;
   }
   
 header {
@@ -25,7 +27,8 @@ header {
   
 header h1 {
     float: left;
-    margin-left: 10%;
+    margin-left: 32%;
+    margin-right: 5%;
   }
 
 .nav {
@@ -34,11 +37,11 @@ header h1 {
 }
 .nav ul {
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     align-items: center;
     background-color: #151515;
     display: block;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .nav ul li {
     display: inline;
