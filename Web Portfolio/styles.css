@@ -12,34 +12,35 @@ body {
   }
   
 .container {
-    max-width: 1920px;
+    max-width: 1280px;
     margin: auto;
     padding: 20px;
-    background-color: rgb(44, 44, 44);
-    border-radius: 3px;
+    background-color: #12111b;
+    border-radius: 20px;
+    font-size: 25px;
   }
   
 header {
-    background: #151515;
+    background: #12111b;
     color: #ffffff;
     padding: 10px 0;
   }
   
 header h1 {
     float: left;
-    margin-left: 32%;
+    margin-left: 29%;
     margin-right: 5%;
   }
 
 .nav {
-    background-color: #151515;
+    background-color: #12111b;
     padding: 10px;
 }
 .nav ul {
     list-style-type: none;
     text-align: left;
     align-items: center;
-    background-color: #151515;
+    background-color: #12111b;
     display: block;
     justify-content: space-evenly;
 }
@@ -47,11 +48,12 @@ header h1 {
     display: inline;
     margin-right: 60px;
     text-decoration: none;
+    font-size: 25px;
 }
 .nav ul li a{
     text-decoration: none;
     color: #ffffff;
-    background-color: #2d2d2d;
+    background-color: #12111b;
     padding: 10px;
     padding-right: 30px;
     padding-left: 30px;
