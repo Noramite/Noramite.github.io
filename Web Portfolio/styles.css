@@ -29,9 +29,14 @@ header {
   
 header h1 {
     float: left;
-    margin-left: 29%;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 16%;
   }
+
+header h1 a {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .nav {
     background-color: #12111b;
