@@ -7,20 +7,35 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #ffffff;
+    color: #e2e2e2;
     background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
   
 .container {
-    max-width: 1280px;
-    text-align: center;
+    position: relative;
+    max-width: 95%;
+    text-align: left;
     margin: auto;
     padding: 20px;
     background-color: #12111b;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 25px;
+    
   }
   
+.container h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+
+.container p:hover {
+  color: #ffffff;
+}
+
 header {
     background: #12111b;
     color: #ffffff;
@@ -36,6 +51,44 @@ header h1 {
 header h1 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.bigtitle {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+@keyframes Fade_in {
+  0%   {color: #00000000;}
+  100% {color: #ffffff;}
+  0%   {transform: translateX(45%);}
+  100% {transform: translateX(0%);}
+}
+
+.title h1 {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #ffffff;
+  text-shadow: 8px 8px #16004b;
+  font-size: 150px;
+  padding-left: 20%;
+  animation-name: Fade_in;
+  animation-duration: 1s;
+}
+
+.title p {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #ffffff;
+  text-shadow: 2px 2px #16004b;
+  font-size: 25px;
+  padding-left: 20.4%;
+  padding-bottom: 1%;
+  animation-name: Fade_in;
+  animation-duration: 1.5s;
 }
 
 .nav {
@@ -58,6 +111,7 @@ header h1 a {
 }
 .nav ul li a{
     text-decoration: none;
+    font-weight: bolder;
     color: #ffffff;
     background-color: #12111b;
     padding: 10px;
@@ -74,8 +128,20 @@ header h1 a {
 .project {
     display: grid;
     align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr ;
     column-gap: 5px;
+    margin-left: 30%;
+    margin-bottom: 20px;
+}
+
+.project p {
+  margin-left: -10%;
+  animation-name: Fade_in;
+  animation-duration: 0.5s;
+}
+
+.project img {
+  border-radius: 90px;
 }
 
 section {
@@ -85,19 +151,100 @@ section {
 h2 {
     margin-bottom: 20px;
   }
-  
-.project {
-    margin-bottom: 20px;
-  }
-  
+ 
 footer {
     background: #12111b;
     color: #fff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
+    margin-top: auto;
   }
 
-.sociallinks img {
+.socialslinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.socialslinks a img {
     margin: 5%;
     border-radius: 10px;
+    background-color: #12111b;
+    padding: 50px;
+    align-self: center;
+}
+
+.RVCIMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.RVC {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  margin-left: 1.5%;
+}
+
+.RVC a {
+    background-color: #12111b;
+    padding: 35px;
+    padding-bottom: 3.4%;
+    border-radius: 5px;
+}
+
+.RVC2 {
+    position: relative;
+    max-width: 95%;
+    text-align: left;
+    margin: auto;
+    padding: 35px;
+    padding-bottom:25%;
+    background-color: #12111b;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+.RVC2 p {
+  animation-name: Fade_in;
+  animation-duration: 1s;
+}
+.RVC2 h1 {
+  animation-name: Fade_in;
+  animation-duration: 0.5s;
+}
+
+.footer2 {
+    position: relative;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: #12111b;
+    font-size: 25px;
+}
+
+.audiobtn {
+  align-self: center;
+  margin-left: 30%;
+}
+
+.audiobtn button {
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 25px;
+  background: #12111b;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border-style: hidden;
+}
+
+.audiobtn button:hover {
+  background: #ffffff;
+  text-decoration: none;
+  color: #000000;
 }
