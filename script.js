@@ -1,6 +1,6 @@
 function item1 () {
     
-    let newEle = '<img id="item1" src="/Web Portfolio/images/FTS_CHRock.jpeg" width="300" height="300" alt="Big picture">';
+    let newEle = '<img id="item1" src="/images/FTS_CHRock.jpeg" width="300" height="300" alt="Big picture">';
     
     document.getElementById('item1').outerHTML = newEle;
  }
@@ -15,7 +15,7 @@ function item1 () {
  function item3 () {
     
     let audioElement = document.getElementById('item3');
-    let newSrc = '/Web Portfolio/sounds/JR_CHRock.mp3';
+    let newSrc = '/sounds/JR_CHRock.mp3';
 
     audioElement.src = newSrc;
     audioElement.load();
@@ -30,7 +30,7 @@ function song1 () {
 
 function item12 () {
     
-    let newEle = '<img id="item1" src="/Web Portfolio/images/D4VD_cover.png" width="300" height="300" alt="Big picture">';
+    let newEle = '<img id="item1" src="/images/D4VD_cover.png" width="300" height="300" alt="Big picture">';
     
     document.getElementById('item1').outerHTML = newEle;
  }
@@ -45,7 +45,7 @@ function item12 () {
  function item32 () {
     
     let audioElement = document.getElementById('item3');
-    let newSrc = '/Web Portfolio/sounds/JR_D4VD.mp3';
+    let newSrc = '/sounds/JR_D4VD.mp3';
 
     audioElement.src = newSrc;
     audioElement.load();
@@ -60,7 +60,7 @@ function song2 () {
 
 function item13 () {
     
-    let newEle = '<img id="item1" src="/Web Portfolio/images/FTS_CHRock.jpeg" width="300" height="300" alt="Big picture">';
+    let newEle = '<img id="item1" src="/images/FTS_CHRock.jpeg" width="300" height="300" alt="Big picture">';
     
     document.getElementById('item1').outerHTML = newEle;
  }
@@ -75,7 +75,7 @@ function item13 () {
  function item33 () {
     
     let audioElement = document.getElementById('item3');
-    let newSrc = '/Web Portfolio/sounds/JR_FTS.mp3';
+    let newSrc = '/sounds/JR_FTS.mp3';
 
     audioElement.src = newSrc;
     audioElement.load();
