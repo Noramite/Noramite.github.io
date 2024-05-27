@@ -248,3 +248,24 @@ footer {
   text-decoration: none;
   color: #000000;
 }
+
+.profile {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: normal;
+  margin-left: 1.5%;
+}
+
+.profile p {
+  margin-left: -35%;
+  margin-right: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.profile img {
+  max-width: 512px;
+  max-height: 512px;
+  border-radius: 180px;
+}
