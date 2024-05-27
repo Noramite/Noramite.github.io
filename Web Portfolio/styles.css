@@ -164,7 +164,9 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 .socialslinks a img {
@@ -262,6 +264,8 @@ footer {
   margin-right: 20%;
   margin-top: 5%;
   margin-bottom: 5%;
+  animation-name: Fade_in;
+  animation-duration: 0.5s;
 }
 
 .profile img {
